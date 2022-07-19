@@ -1,0 +1,36 @@
+h1,
+h2 {
+  text-align: center;
+  color: #727e8c;
+}
+section {
+  display: block;
+  width: 80%;
+  overflow-x: auto;
+  margin: 5px auto;
+}
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #727e8c;
+  border-collapse: collapse;
+}
+thead {
+  text-transform: uppercase;
+}
+th {
+  text-align: left;
+}
+.table tbody tr:nth-of-type(odd) {
+  background-color: #fafbfb;
+}
+.table td {
+  vertical-align: middle;
+  border-bottom: 1px solid #dfe3e7;
+  border-top: none;
+}
+table th,
+.table td {
+  padding: 1.15rem 2rem;
+  vertical-align: top;
+}
